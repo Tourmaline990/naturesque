@@ -1,6 +1,7 @@
 *{
     background-color:  #D8B89D;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
 }
 header{
     display: flex;
@@ -59,8 +60,49 @@ h1,h2{
     margin: 7px;
 }
 footer {
+ background-color: #A67B5B;
  display: flex;
- justify-content: space-between;
  align-items: center;
+ row-gap: 40px;
+ flex-direction: column;
 }
 
+footer nav{
+    display: flex;
+    
+}
+footer nav a{
+    justify-content: space-between;
+    background-color: #A67B5B;
+    padding: 25px;
+    color:  black;
+    font-weight: bold;
+}
+footer form{
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form input{
+    padding: 15px;
+    border: 2px solid black;
+}
+input[type="submit"]{
+    font-weight: bold;
+    background-color: #A67B5B;
+    font-size: large;
+}
+footer p{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #A67B5B;
+}
+input[type="text"]{
+    font-size: large;
+    font-weight: bold;
+}
