@@ -2,6 +2,7 @@
     background-color:  #D8B89D;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
+    max-width: 1000px;
     
 }
 header{
@@ -10,6 +11,8 @@ header{
     background-color: #A67B5B;
     width: 100%;
     align-items: center;
+    height: 200px;  
+    border: 5px solid #A67B5B;  
     height: 200px;  
     border: 5px solid #A67B5B;  
     flex-wrap: wrap;
