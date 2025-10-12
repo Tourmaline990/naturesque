@@ -71,9 +71,19 @@ header{
     max-width: 100%;
     height: auto;
 }
-h1,h2{
+ main h1,h2{
     text-align: center;
     padding: 15px;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS';
+}
+.header p{
+    font-size: 1rem;
+    font-family: georgia;
+}
+.main p{
+    font-size: 1rem;
+    font-family: georgia;
 }
 .images{
     display: flex;
@@ -84,7 +94,11 @@ h1,h2{
 }
 .images img{
     max-width: 100%;
-    height: auto;}
+    height: auto;
+    box-shadow: 2px 4px 2px 2px black;
+    border-radius: 10px;
+    border: 1px solid white;
+}
 
 
 .images figcaption{
@@ -92,9 +106,10 @@ h1,h2{
     font-size: 1rem;
     font-family: tahoma;
     text-align: center;
-    border:3px solid #A67B5B;
+    border:2px solid #A67B5B;
     padding: 10px;
-    margin: 7px;
+    margin: 5px;
+    border-radius: 10px;
 }
 .images figure{
  flex: 1 1 250px;
@@ -156,8 +171,9 @@ footer form input[type="submit"]{
     border-radius: 10px;
     font-size: 1rem;
     background-color: #A67B5B;
-    box-shadow: 4px 4px 3px 4px black;
+    box-shadow: 4px 4px 3px 2px black;
     border: 2px solid black;
+    font-family: tahoma;
 }
 
  footer p{
@@ -255,13 +271,18 @@ th,td{
     border-collapse: collapse;
     border-color: black;
     padding: 15px;
+    font-size: 1rem;
+    font-family: tahoma;
   
 }
 th{
     background-color: #A67B5B;
+    font-family: verdana;
+    font-size: 1rem;
 }
 .table{
     padding: 10px;
+    text-align: center;
 }
 
 .relative,
@@ -270,6 +291,7 @@ th{
   max-width:  100%;
   height: auto;
   padding: 50px;
+ 
 }
 
 .absolute, 
