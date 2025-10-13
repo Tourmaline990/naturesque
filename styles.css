@@ -236,6 +236,8 @@ body{
     grid-row: 2/4;
     border-radius: 10px;
     box-shadow: 5px 10px 3px 3px black;
+    width: 100%;
+    height: auto;
 }
 .all{
     grid-column: 1;
