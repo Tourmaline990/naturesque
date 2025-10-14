@@ -215,9 +215,9 @@ body{
 .my{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: auto auto auto;
-   gap: 15px;
-   margin: 20px;
+    grid-template-rows: repeat(3,auto);
+     gap: 3.5rem;
+   
    
 
 }
