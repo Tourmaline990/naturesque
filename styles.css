@@ -211,15 +211,158 @@ body{
 .h{
     font-family: 'Trebuchet MS';
 }
+.over{
+    background-image: url("images/city-view.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    
+    
+}
 
 .my{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: repeat(3,auto);
      gap: 3.5rem;
-   
-   
+}
+.mains{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5,auto);
+    background-color: transparent;
+    gap: 1rem;
+}
+.simms{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+}
+.simms img{
+    width: 20%;
+    height:  auto;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: transparent;
+    margin: 30px;
+}
+.simms h3{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-family: verdana;
+}
+.simms h3 a{
+    background-color: transparent;
+    color: #ff3b20;
+    font-size: 1.5rem;
+}
+.simms p{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: transparent;
+}
+.sems{
+    grid-column: 1;
+    grid-row: 3;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+    gap: 1rem;
+}
+.sems img,
+.fer img{
+    width: 20%;
+    height:  auto;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: transparent;
+    margin: 30px;
+}
+.sems h3,
+.fer h3 {
+   grid-column: 2;
+    grid-row: 1;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-family: verdana; 
+}
+.sems h3 a,
+.fer h3 a{
+    background-color: transparent;
+    color: #ff3b20;
+    font-size: 2rem;
+    font-family: tahoma;
+}
+.sems  p,
+.fer p{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-family: georgia;
+    color: black;
+}
+.fer p a{
+    background-color: transparent;
+    color: black;
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: tahoma;
+}
+.fer{
+    grid-column: 1;
+    grid-row: 4;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+    gap: 1rem;
+}
 
+.syms{
+    grid-column: 2;
+    grid-row: 2/5;
+    background-color: transparent;
+}
+.symbol {
+    grid-column: 1/3;
+    grid-row: 1;
+    
+    background-color: transparent;
+    flex-direction: column;
+    display: flex;
+   
+    
+}
+.symbol h1{
+    align-items: center;
+    background-color: transparent;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "trebutchet ms";
+    justify-content: center;
+}
+.symbol p{
+    align-items: center;
+    background-color: transparent;
+  text-align: center;
+    font-family: georgia;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+
+.seperate{
+    background-color: transparent;
 }
 .itemone{
     grid-column: 1/3;
@@ -300,7 +443,7 @@ th{
  
 }
 
-.absolute, 
+.absolute ,
 .another_absolute{
   position: absolute;
   top: 50%;
@@ -329,7 +472,7 @@ th{
     font-family: tahoma;
     
 }
-.absolute a, 
+.absolute a,
 .another_absolute a{
     font-size: 2rem;
     border-radius: 10px;
